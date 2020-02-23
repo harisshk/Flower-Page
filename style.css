@@ -1,0 +1,116 @@
+.leftcontent{
+    
+    position: absolute;
+ /* line-height: 17px;  */
+ padding-top: 1%;
+ padding-bottom: 0.5%;
+
+}
+.Secure{
+    color: #009688;
+    font-family: sans-serif;
+}
+.fa-question-circle:before {
+    content: "\f059";
+}
+.note{
+    padding-top: 1%;
+ padding-bottom: 0.5%;
+}
+.rightcontent{
+    padding-left: 30%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+.greenbar{
+    background-color: yellowgreen;
+ padding: 3px;
+ color: white;
+}
+.greenbartop{
+    background-color: yellowgreen;
+ padding: 3px;
+ border : 20px solid yellowgreen;
+ color: white;
+}
+.head{
+    color: #009688;
+    margin-left: 25px;
+    font-family: sans-serif;
+    }
+.details {
+    
+        margin-left: 25%; 
+         margin-right: 45%;
+         /* position: fixed; */
+         position: absolute;
+       
+}
+.carddetails,.cardholderdetails{
+background-color: navajowhite;
+}
+
+.restart{
+	
+	position: absolute;
+       color:darkblue;
+      padding-top: 3.8%;
+     
+}
+#restart{
+	position: absolute;
+	color:darkblue;
+    padding-left: 32px;
+    font-size: large;
+    padding-top: 0.3%;
+    background-color:transparent;
+    /* color:  rgb(14, 14, 119); */
+    border-color: transparent;
+    cursor: pointer;
+    
+}
+.close{
+	position: absolute;
+	padding-top: 6.2%;
+}
+#close{
+	position: absolute;
+	padding-left: 33px;
+	margin-top: 6.2%;
+    color:darkblue;
+    font-size: large;
+    background-color:transparent;
+    /* color:  rgb(14, 14, 119); */
+    border-color: transparent;
+    cursor: pointer;
+}
+.paystar{
+	margin-left: 305px;
+	color:darkblue;
+    position: absolute;
+    margin-top: 3.5%;
+    font-size: large;
+    background-color:transparent;
+    /* color:  rgb(14, 14, 119); */
+    border-color: transparent;
+    cursor: pointer;
+}
+#paystar{
+	margin-left: 458px;
+	padding-top: 4.2%;
+}
+input,select{
+    border:1.5px solid skyblue;
+}
+.footer {
+	/* position: absolute; */
+	background-color: YellowGreen;
+	border : 2px solid yellowgreen;
+	color: #004466;
+	font-size: 30px;
+	text-align: center;
+	
+	font-family: arial;
+	padding-top: 10px;
+}
