@@ -6,6 +6,13 @@
  padding-bottom: 0.5%;
 
 }
+.container{
+    min-height: 100%;
+}
+.main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
 .Secure{
     color: #009688;
     font-family: sans-serif;
@@ -49,6 +56,7 @@
 }
 .carddetails,.cardholderdetails{
 background-color: navajowhite;
+
 }
 
 .restart{
@@ -104,13 +112,23 @@ input,select{
     border:1.5px solid skyblue;
 }
 .footer {
-	/* position: absolute; */
+	position: absolute; 
 	background-color: YellowGreen;
 	border : 2px solid yellowgreen;
 	color: #004466;
 	font-size: 30px;
 	text-align: center;
-	
+    width: 100%;
+    
+    right: 0;
+  bottom: 0 ;
+  left: 0;
+    width: 100%;
 	font-family: arial;
 	padding-top: 10px;
 }
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
